@@ -24,7 +24,7 @@ private:
 public:
     Intake intake;
     
-    Elevator(int elv_port, int elv_ch_a, int elv_ch_b, int arm_pivot_pot_port, int arm_pivot_enc_a, int arm_pivot_enc_b, int flipper_port, int rin_port, int lin_port);
+    Elevator(int elv_port, int elv_ch_a, int elv_ch_b, int arm_pivot_pot_port, int arm_pivot_enc_a, int arm_pivot_enc_b, int flipper_port, int rin_port, int lin_port);  // Use def directly?
     
     void SetPosition(int position);
     

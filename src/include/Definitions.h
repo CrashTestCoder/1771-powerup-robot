@@ -3,11 +3,11 @@
 
 #define TBD                 1771
 
-// *TO-DO: CHANGE TBDs to actual values
+// TO-DO: CHANGE TBDs to actual values
 
 #define PI                  3.1415926535897932384623383279
 
-/*========== Button Mappings ==========*/
+/*============= Button Mappings ==============*/
 #define CLIMB_BUTTON_A      7
 #define CLIMB_BUTTON_B      10
 #define INTAKE_BUTTON_IN    3
@@ -15,12 +15,12 @@
 #define INTAKE_BUTTON_FLIP  5
 #define MANUAL_SHIFT_BUTTON 1
 
-/*========== Ports and Encoder channels ==========*/
+/*======== Ports and Encoder channels ========*/
 #define JOY_LEFT            0
 #define JOY_RIGHT           1
 #define JOY_OTHER           2
 
-// Motors
+/*================== Motors ==================*/
 #define LTR_MOTOR_A         4
 #define LTR_MOTOR_B         7
 #define RTR_MOTOR_A         3
@@ -30,7 +30,7 @@
 #define LEFT_ARM_IN_PORT    8
 #define ARM_PIVOT_PORT      1
 
-// Encoders (and a single potentiometer)
+/*=== Encoders (and a single potentiometer) ===*/
 #define L_ENC_CHA           TBD
 #define L_ENC_CHB           TBD
 #define R_ENC_CHA           TBD
@@ -46,7 +46,7 @@
 #define FLIPPER_PORT        1
 #define WINGS_PORT          TBD
 
-/*========== Speed constants and Encoder thresholds ==========*/
+/*=== Speed constants and Encoder thresholds ===*/
 #define CL_SPEED            TBD
 
 #define SHIFT_UP_SPEED      2900

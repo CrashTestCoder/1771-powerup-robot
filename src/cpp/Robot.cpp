@@ -39,7 +39,7 @@ private:
     // Point for auton
     Point currentPoint;
     
-    int intake_val = 0;
+    int intake_val = 0;     // What's this for?
     
 public:
     
@@ -53,10 +53,10 @@ public:
                         navx = new AHRS(SPI::Port::kMXP);
                     }catch(std::exception& e){
                         // Don't get an error please thank you
-                        naverr = 1;
+                        naverr = 1;     // you should probably use this somewhere
                     }
                     
-                    navx->ZeroYaw();
+                    navx->ZeroYaw();    // Ignores possible failure imediatly
                     
     }
     
@@ -119,7 +119,7 @@ public:
 //        }
         
         if(!driveTrain.IsClimbing()){
-//            if(navx->GetRoll()-navrollinit > FORWARD_TIP){
+//            if(navx->GetRoll()-navrollinit > FORWARD_TIP){                        // No, use derivitives and dont let the driver interfere until its fixed
 //                driveTrain.Tank(1.5 * in.GetLeftY(), 1.5 * in.GetRightY());
 //            }else if(navx->GetRoll()-navrollinit < BACKWARD_TIP){
 //                driveTrain.Tank(-1.5 * in.GetLeftY(), -1.5 * in.GetRightY());
@@ -127,7 +127,7 @@ public:
                 driveTrain.Tank(in.GetLeftY(),in.GetRightY());
             //          }
             
-            intake_val = 0;
+            intake_val = 0;     // Y
             
             if(in.GetLeftButton(INTAKE_BUTTON_IN)){
                 elevator.intake.SetPivotArm(INTAKE_IN_PT);

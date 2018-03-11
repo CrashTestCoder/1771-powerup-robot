@@ -51,7 +51,7 @@
 
 #define SHIFT_UP_SPEED      2900
 #define SHIFT_DOWN_SPEED    2200
-#define CL_SHIFT_UP_SPEED   TBD
+#define CL_SHIFT_UP_SPEED   TBD     // Not gonna happen
 #define CL_SHIFT_DOWN_SPEED TBD
 #define ELEVATOR_HIGH_PT    TBD
 #define ELEVATOR_LOW_PT     TBD

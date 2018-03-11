@@ -23,7 +23,7 @@ private:
     //AnalogInput pivot_pot;
     
 public:
-    Intake(int arm_pivot_port, int flipper_port, int rin_port, int lin_port, int arm_enc_a, int arm_enc_b);
+    Intake(int arm_pivot_port, int flipper_port, int rin_port, int lin_port, int arm_enc_a, int arm_enc_b); // use def directly?
     
     void SetArms(bool state);
     

@@ -13,6 +13,7 @@ class Transmission {
 private:
     TalonSRX motor1, motor2;
     Encoder enc;
+                    // Where's gear shift and pto
 public:
     Transmission(int m1port, int m2port, int ech1, int ech2);
     
